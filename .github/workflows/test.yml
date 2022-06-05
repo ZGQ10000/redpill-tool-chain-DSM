@@ -81,7 +81,8 @@ jobs:
           ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/blob/main/mlx4_core/releases/ds918p_42218.json
           ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/blob/main/ixgbe/releases/ds918p_42218.json
           ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/blob/main/rtl8150/releases/ds918p_42218.json
-        
+          ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/blob/main/e1000e/releases/ds918p_42218.json
+          
       - name: 添加扩展驱动[dva3221]
         if: matrix.platform == 'dva3221'
         run: |
